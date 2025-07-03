@@ -1,53 +1,22 @@
 {
-  "books": [
+  "projects": [
     {
       "id": 1,
-      "title": "The Great Gatsby",
-      "author": "F. Scott Fitzgerald",
-      "status": "Read",
-      "rating": 5
+      "title": "AniHaven",
+      "brief": "An anime search app using the Jikan API.",
+      "image": "./pics/home.png",
+      "description": "AniFinder lets users search for anime by title and view details like synopsis, trailers, and where to stream. Built this with JavaScript and powered by JIKAN API, a public API for anime.Main goal was to learn DOM manipulation and master the Full REST API CRUD operations",
+      "github": "https://github.com/creeksonJoseph/Anifinder",
+      "deployed": "https://creeksonjoseph.github.io/Anifinder/"
     },
     {
       "id": 2,
-      "title": "To Kill a Mockingbird",
-      "author": "Harper Lee",
-      "status": "Read",
-      "rating": 4
-    },
-    {
-      "id": 3,
-      "title": "1983",
-      "author": "George Orwell",
-      "status": "To Read",
-      "rating": 0
-    },
-    {
-      "id": 4,
-      "title": "Pride and Prejudice",
-      "author": "Jane Austen",
-      "status": "Read",
-      "rating": 5
-    },
-    {
-      "id": 5,
-      "title": "The Catcher in the Rye",
-      "author": "J.D. Salinger",
-      "status": "To Read",
-      "rating": 0
-    },
-    {
-      "id": 6,
-      "title": "Lord of the Flies",
-      "author": "William Golding",
-      "status": "Read",
-      "rating": 3
-    },
-    {
-      "id": 18,
-      "title": "jojo ",
-      "author": "meghan thee stalion",
-      "status": "Read",
-      "rating": 5
+      "title": "My Book Shelf",
+      "brief": "A personal digital bookshelf to manage book collection.",
+      "image": "./pics/book.png",
+      "description": "My Book Shelf allows users to add, edit, and delete books from their collection. It uses a JSON server for backend and dynamic DOM manipulation for the UI.This was a school project we were given a template to use when learning DOM manipulation and the REST API CRUD operations",
+      "github": "https://github.com/creeksonJoseph/book-shelf-sdf-ft14",
+      "deployed": "https://creeksonjoseph.github.io/book-shelf-sdf-ft14/"
     }
   ]
 }
